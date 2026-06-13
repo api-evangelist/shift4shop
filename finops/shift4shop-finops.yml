@@ -1,0 +1,49 @@
+name: Shift4Shop FinOps
+description: Financial operations and cost management considerations for integrating with the Shift4Shop REST API. API access is bundled with all Shift4Shop subscription plans at no additional direct cost.
+url: https://www.shift4shop.com/plans.html
+
+api_cost_model:
+  type: included
+  description: The Shift4Shop REST API is included at no additional charge with all subscription tiers, including the free End-to-End plan. There are no per-call or per-seat API fees.
+  notes:
+    - No direct API usage fees billed separately from subscription
+    - API access is enabled by default on all active Shift4Shop accounts
+    - Costs are driven by subscription plan choice and payment processing fees
+
+subscription_costs:
+  - tier: End-to-End eCommerce (Free)
+    monthly_cost: 0
+    condition: US merchants using Shift4 Payments as payment processor
+  - tier: Basic Store
+    monthly_cost: 29
+    condition: Any merchant, any payment gateway
+  - tier: Plus Store
+    monthly_cost: 79
+    condition: Any merchant, any payment gateway
+  - tier: Pro Store
+    monthly_cost: 229
+    condition: Any merchant, any payment gateway
+  - tier: Enterprise
+    monthly_cost: custom
+    condition: High-volume merchants, negotiated pricing
+
+payment_processing:
+  description: Shift4Shop supports 100+ payment gateways. Using Shift4 Payments enables the free plan for US merchants.
+  shift4_payments_rate: "2.9% + $0.30 per transaction"
+  notes:
+    - Using Shift4 Payments is required for the free End-to-End plan
+    - Third-party payment gateway fees apply separately and vary by provider
+
+cost_optimization:
+  - Use the free End-to-End plan (requires US merchant + Shift4 Payments) to eliminate monthly subscription costs
+  - API access is always included; no need to upgrade plans solely for API access
+  - Cache API responses where possible to minimize resource usage on your infrastructure
+  - Monitor store activity through the built-in analytics to right-size your subscription plan
+
+integration_costs:
+  - name: Developer Time
+    description: Primary integration cost is development time. No per-seat developer fees for API access.
+  - name: Hosting / Infrastructure
+    description: Any integration middleware or application servers required to run your integration are billed by your own cloud/hosting provider and are not included in Shift4Shop pricing.
+  - name: Third-Party Connectors
+    description: Third-party integration platforms (e.g., API2Cart, Zapier) charge their own fees for Shift4Shop connectivity if used instead of direct API integration.

@@ -1,0 +1,99 @@
+name: Shift4Shop Plans and Pricing
+description: Pricing plans for Shift4Shop e-commerce platform. The free End-to-End plan requires use of Shift4 Payments as the payment processor. Paid plans allow any payment gateway.
+url: https://www.shift4shop.com/plans.html
+plans:
+  - name: End-to-End eCommerce
+    description: Free plan for US merchants who use Shift4 Payments as their payment processor. Includes all platform features with no monthly fee.
+    price: 0
+    unit: month
+    currency: USD
+    features:
+      - Unlimited products
+      - Unlimited staff users
+      - Unlimited orders
+      - Advanced REST API access
+      - 24/7 technical support
+      - Built-in blog
+      - Free domain registration
+      - Unlimited bandwidth
+      - 50+ mobile-ready themes
+      - Facebook store integration
+      - 100+ payment providers (Shift4 Payments required)
+    restrictions:
+      - US merchants only
+      - Must use Shift4 Payments as processor
+
+  - name: Basic Store
+    description: Entry-level paid plan for merchants who prefer their own payment gateway.
+    price: 29
+    unit: month
+    currency: USD
+    features:
+      - 2 staff users
+      - Unlimited products
+      - Unlimited orders
+      - Advanced REST API access
+      - 24/7 technical support
+      - Built-in blog
+      - Free domain registration
+      - Unlimited bandwidth
+      - 50+ mobile-ready themes
+      - 100+ payment providers (any gateway)
+      - No transaction fees
+
+  - name: Plus Store
+    description: Mid-tier plan with more staff users and advanced features.
+    price: 79
+    unit: month
+    currency: USD
+    features:
+      - 5 staff users
+      - Unlimited products
+      - Unlimited orders
+      - Advanced REST API access
+      - 24/7 technical support
+      - Built-in blog
+      - Free domain registration
+      - Unlimited bandwidth
+      - 50+ mobile-ready themes
+      - 100+ payment providers (any gateway)
+      - No transaction fees
+
+  - name: Pro Store
+    description: Professional plan for larger businesses with expanded staff and features.
+    price: 229
+    unit: month
+    currency: USD
+    features:
+      - 15 staff users
+      - Unlimited products
+      - Unlimited orders
+      - Advanced REST API access
+      - 24/7 technical support
+      - Built-in blog
+      - Free domain registration
+      - Unlimited bandwidth
+      - 50+ mobile-ready themes
+      - 100+ payment providers (any gateway)
+      - No transaction fees
+
+  - name: Enterprise
+    description: Custom enterprise solution for high-volume merchants with dedicated support and custom pricing.
+    price: custom
+    unit: month
+    currency: USD
+    features:
+      - Unlimited staff users
+      - Unlimited products
+      - Unlimited orders
+      - Advanced REST API access
+      - Dedicated account manager
+      - Enterprise-grade hosting
+      - Custom integrations
+      - SLA guarantees
+
+notes:
+  - API access is included in all plans at no additional charge
+  - Credit card processing rate is 2.9% + $0.30 per transaction
+  - Shift4 Payments is offered as the built-in payment processor
+  - US merchants using Shift4 Payments qualify for the free End-to-End plan

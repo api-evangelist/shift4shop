@@ -1,0 +1,38 @@
+name: Shift4Shop API Rate Limits
+description: Rate limiting policies for the Shift4Shop REST API. Shift4Shop enforces rate limits to ensure platform stability. Specific numeric thresholds are enforced per API application key. Developers should implement exponential backoff and retry logic.
+url: https://apirest.3dcart.com/
+limits:
+  - name: API Call Throttling
+    description: Shift4Shop applies rate throttling to REST API calls per application. The platform enforces limits on the number of API requests to ensure store stability. Developers are advised to handle rate limit responses (HTTP 429) gracefully.
+    type: throttle
+    notes:
+      - Implement retry logic with exponential backoff for 429 responses
+      - Check API call limits in your plan details within the Store Manager
+      - Rate limits apply per application API key
+      - Pagination should be used to retrieve large datasets rather than making many rapid requests
+
+  - name: Store Activation Requirement
+    description: Full API access requires the store to be active for at least 7 days and to have a connected payment method configured.
+    type: access
+    notes:
+      - Store must be active for a minimum of 7 days before full REST API access is granted
+      - A payment method must be connected before accessing the REST API module
+
+headers:
+  - name: Retry-After
+    description: When rate limited (HTTP 429), the API may return a Retry-After header indicating how long to wait before retrying.
+
+pagination:
+  description: The Shift4Shop REST API uses limit and offset parameters for paginating through large result sets. Use pagination to avoid overwhelming the API with large data requests.
+  parameters:
+    - name: limit
+      description: Number of records to return per request
+    - name: offset
+      description: Number of records to skip before returning results
+
+recommendations:
+  - Implement exponential backoff for all API calls
+  - Cache frequently accessed data to reduce API call volume
+  - Use pagination for bulk data retrieval
+  - Handle HTTP 429 Too Many Requests responses gracefully
+  - Monitor API usage through the Shift4Shop Store Manager REST API module
