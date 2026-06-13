@@ -1,0 +1,42 @@
+{
+  "provider": "shift4shop",
+  "url": "https://blog.shift4shop.com/",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Get Your Store Holiday-Ready: A Sales Tax Survival Guide for eCommerce",
+      "url": "https://blog.shift4shop.com/avatax-holiday-sales-tax",
+      "date": "2025-11-19",
+      "author": "Shift4Shop",
+      "summary": "Addresses sales tax challenges eCommerce retailers face during the holiday season, including expanded geographic reach, complex promotions, and varying state tax rules. Recommends using AvaTax automation to calculate accurate tax rates in real-time, track economic nexus thresholds, and handle bundled products seamlessly."
+    },
+    {
+      "title": "How To Set Up Post-Purchase Surveys That Convert",
+      "url": "https://blog.shift4shop.com/post-purchase-surveys",
+      "date": "2025-03-05",
+      "author": "Syed Balkhi",
+      "summary": "Post-purchase surveys are essential tools for gathering customer feedback and driving business growth. Provides practical guidance on defining clear goals, crafting targeted questions, designing user-friendly surveys, selecting appropriate delivery channels, and offering incentives to boost participation rates."
+    },
+    {
+      "title": "12 Customer Service Channels to Help Small Businesses Thrive",
+      "url": "https://blog.shift4shop.com/customer-service-channels-small-businesses",
+      "date": "2025-02-19",
+      "author": "Guest Author",
+      "summary": "Explores twelve essential communication channels that small businesses can leverage to enhance customer satisfaction and loyalty, ranging from real-time solutions like live chat and video conferencing to self-service tools such as FAQ pages and knowledge bases."
+    },
+    {
+      "title": "Empowering Your Online Store with Flexible Payment Options from Affirm",
+      "url": "https://blog.shift4shop.com/flexible-payment-options-affirm",
+      "date": "2025-02-05",
+      "author": "Guest Author",
+      "summary": "Explores how Shift4Shop's integration with Affirm enables merchants to offer flexible buy-now-pay-later payment options. Merchants using Affirm experience a 70% lift in average cart sizes and fewer abandoned carts, while customers gain budget management flexibility and a smoother checkout experience."
+    },
+    {
+      "title": "How to Use AI to Boost eCommerce Sales and Drive Engagement",
+      "url": "https://blog.shift4shop.com/ai-boost-ecommerce-sales-drive-engagement",
+      "date": "2025-01-15",
+      "author": "Gaurav Sharma",
+      "summary": "Explores practical applications of artificial intelligence for online retailers, covering AI-powered chatbots, personalized product recommendations, inventory optimization, and marketing campaign refinement. Reviews five specific AI tools including Gorgias, Nosto, Linnworks, Anyword, and Klaviyo."
+    }
+  ]
+}

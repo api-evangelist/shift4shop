@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Shift4Shop",
+  "url": "https://www.shift4shop.com/",
+  "description": "Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data.",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://twitter.com/Shift4Shop",
+    "https://www.linkedin.com/company/shift4shop",
+    "https://blog.shift4shop.com/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.shift4shop.com/support.htm",
+    "contactType": "customer support"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Shift4Shop Plans",
+    "url": "https://www.shift4shop.com/plans.html"
+  },
+  "subjectOf": [
+    {
+      "@type": "WebAPI",
+      "name": "Shift4Shop REST API",
+      "description": "RESTful web service for managing all aspects of a Shift4Shop online store including products, categories, orders, customers, coupons, and store configuration. Supports GET, POST, PUT, and DELETE HTTP methods.",
+      "url": "https://apirest.3dcart.com/",
+      "documentation": "https://apirest.3dcart.com/",
+      "provider": {
+        "@type": "Organization",
+        "name": "Shift4Shop"
+      },
+      "termsOfService": "https://www.shift4shop.com/terms.html",
+      "category": [
+        "E-Commerce",
+        "Shopping Cart",
+        "Products",
+        "Orders",
+        "Customers",
+        "Inventory"
+      ]
+    }
+  ]
+}
