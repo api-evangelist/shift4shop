@@ -1,7 +1,7 @@
 {
   "provider": "shift4shop",
   "url": "https://blog.shift4shop.com/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "Get Your Store Holiday-Ready: A Sales Tax Survival Guide for eCommerce",
@@ -38,5 +38,13 @@
       "author": "Gaurav Sharma",
       "summary": "Explores practical applications of artificial intelligence for online retailers, covering AI-powered chatbots, personalized product recommendations, inventory optimization, and marketing campaign refinement. Reviews five specific AI tools including Gorgias, Nosto, Linnworks, Anyword, and Klaviyo."
     }
-  ]
+  ],
+  "repo": "shift4shop",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/shift4shop",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0
 }
