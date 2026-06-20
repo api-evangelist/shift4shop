@@ -4,7 +4,7 @@
   "name": "Shift4Shop",
   "url": "https://www.shift4shop.com/",
   "description": "Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data.",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://twitter.com/Shift4Shop",
     "https://www.linkedin.com/company/shift4shop",

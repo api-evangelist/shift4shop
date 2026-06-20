@@ -1,7 +1,7 @@
 aid: shift4shop
 name: Shift4Shop
 description: Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data. The API enables developers to build integrations, automate fulfillment, synchronize inventory, and manage the full lifecycle of an online store programmatically.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/shift4shop/refs/heads/main/apis.yml
 created: 2026-06-13
 modified: 2026-06-13
@@ -19,7 +19,7 @@ apis:
   - aid: shift4shop:shift4shop-rest-api
     name: Shift4Shop REST API
     description: RESTful web service for managing all aspects of a Shift4Shop online store including products, categories, orders, customers, coupons, and store configuration. Supports GET, POST, PUT, and DELETE HTTP methods. Authentication is via OAuth2 or application API keys managed through the Store Manager.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://apirest.3dcart.com/
     baseURL: https://apirest.3dcart.com/3dCartWebAPI/v1/
     tags:
