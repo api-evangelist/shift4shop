@@ -1,7 +1,7 @@
 {
   "provider": "shift4shop",
   "url": "https://blog.shift4shop.com/",
-  "fetched": "2026-06-14T20:42:17Z",
+  "fetched": "2026-06-27T12:03:07Z",
   "posts": [
     {
       "title": "Get Your Store Holiday-Ready: A Sales Tax Survival Guide for eCommerce",
@@ -41,6 +41,13 @@
   ],
   "repo": "shift4shop",
   "feeds": [
+    {
+      "source": "https://blog.shift4shop.com/feed/",
+      "feed_url": "https://blog.shift4shop.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
     {
       "source": "https://www.linkedin.com/company/shift4shop",
       "error": "HTTPError"
