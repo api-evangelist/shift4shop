@@ -40,6 +40,8 @@ apis:
       - FN: Shift4Shop Support
         url: https://www.shift4shop.com/support.htm
 common:
+  - type: DomainSecurity
+    url: security/shift4shop-domain-security.yml
   - type: Website
     url: https://www.shift4shop.com/
   - type: Documentation
