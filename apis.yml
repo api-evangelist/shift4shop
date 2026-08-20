@@ -21,6 +21,15 @@ specificationVersion: '0.23'
 tags:
   - E-Commerce
   - Shopping Cart
+  - Product
+  - Order
+  - Customers
+  - Categories
+  - Coupons
+  - Inventory
+tags_raw:
+  - E-Commerce
+  - Shopping Cart
   - Products
   - Orders
   - Customers
@@ -35,6 +44,15 @@ apis:
     humanURL: https://apirest.3dcart.com/
     baseURL: https://apirest.3dcart.com/3dCartWebAPI/v1/
     tags:
+      - E-Commerce
+      - REST
+      - Product
+      - Order
+      - Customers
+      - Categories
+      - Coupons
+      - Inventory
+    tags_raw:
       - E-Commerce
       - REST
       - Products
