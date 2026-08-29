@@ -1,6 +1,17 @@
 aid: shift4shop
 name: Shift4Shop
 description: Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data. The API enables developers to build integrations, automate fulfillment, synchronize inventory, and manage the full lifecycle of an online store programmatically.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
