@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: Shift4Shop API Rate Limits
 description: Rate limiting policies for the Shift4Shop REST API. Shift4Shop enforces rate limits to ensure platform stability. Specific numeric thresholds are enforced per API application key. Developers should implement exponential backoff and retry logic.
 url: https://apirest.3dcart.com/
