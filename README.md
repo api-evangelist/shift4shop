@@ -64,26 +64,105 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data. Founded in 1997 and acquired by Shift4 Payments in 2020, the platform serves online merchants with a cloud-based SaaS solution.
+Shift4Shop (formerly 3dcart) is an e-commerce platform providing a REST API for managing products, categories, orders, customers, coupons, and store configuration data. The API enables developers to build integrations, automate fulfillment, synchronize inventory, and manage the full lifecycle of an online store programmatically.
 
-## API
+**Areas:** E-Commerce · Shopping Cart · Product · Order · Customers · Categories · Coupons · Inventory
 
-The Shift4Shop REST API is available at `https://apirest.3dcart.com/3dCartWebAPI/v1/` and supports standard HTTP methods (GET, POST, PUT, DELETE). Authentication uses OAuth2 or application API keys managed through the Store Manager.
+## Shift4Shop on APIs.io
 
-**Key resources:** Products, Categories, Orders, Customers, Coupons, Manufacturers, Distributors, Store configuration.
+Everything profiled for Shift4Shop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shift4shop/](https://apis.io/providers/shift4shop/)** — or go straight to one of the APIs or properties below.
 
-## Links
+### APIs (1)
 
-- **Website:** https://www.shift4shop.com/
-- **API Documentation:** https://apirest.3dcart.com/
-- **Developer App Setup:** https://support.3dcart.com/Knowledgebase/Article/View/370/6/how-can-i-create-an-app-for-shift4shop
-- **Pricing:** https://www.shift4shop.com/plans.html
-- **Status Page:** https://shift4payments.statuspage.io/
-- **Blog:** https://blog.shift4shop.com/
-- **GitHub:** https://github.com/3dcart
-- **LinkedIn:** https://www.linkedin.com/company/shift4shop
-- **X:** https://twitter.com/Shift4Shop
+- [Shift4Shop REST API](https://apis.io/apis/shift4shop/shift4shop-rest-api/) — RESTful web service for managing all aspects of a Shift4Shop online store including products, categories, orders, customers, coupons, and store…
 
-## APIs.json
+### Published properties
 
-This repository contains an [APIs.json 0.19](https://apisjson.org/) profile cataloging the Shift4Shop API, maintained by [API Evangelist](https://apievangelist.com/).
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shift4Shop Domain Security](https://apis.io/security/shift4shop/shift4shop-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shift4Shop Plans Pricing](https://apis.io/plans/shift4shop/shift4shop-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Shift4Shop Rate Limits](https://apis.io/rate-limits/shift4shop/shift4shop-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Shift4Shop Finops](https://apis.io/finops/shift4shop/shift4shop-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.shift4shop.com/)
+- [Documentation](https://apirest.3dcart.com/)
+- [Pricing](https://www.shift4shop.com/plans.html)
+- [Blog](https://blog.shift4shop.com/)
+- [Status](https://shift4payments.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 18.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 18.4 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shift4shop/](https://apis.io/providers/shift4shop/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shift4Shop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shift4shop/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
